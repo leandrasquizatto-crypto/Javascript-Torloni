@@ -30,5 +30,6 @@ switch (semana) {
 
 
     default:
+        console.log.ap("O número não é válido")
         break;
 }
