@@ -1,0 +1,18 @@
+//Imagine uma loja de roupas que dê um desconto ao cliente, dependendo do valor que ele
+//pague. Faça um programa para loja, que solicite o valor total da compra ao usuário e assim,
+//aplique um desconto de acordo com o valor total da compra. Siga a tabela:
+//Valor total da compra até R$ 100,00: sem desconto.
+//Valor total da compra de R$ 100,01 a R$ 200,00: desconto de 10%.
+//Exiba o valor final da compra com o desconto aplicado.
+
+window.alert(" Bem vindo não esqueça do código de desconto da sua compra!")
+let Valordacompra = prompt (" Qual o valor total da sua compra ? ")
+let Desconto = prompt (" Digite o cógigo de desconto para adicionar em sua compra !")
+ 
+if(valordacompra <=100){
+    Desconto = 0;
+}
+
+
+
+
