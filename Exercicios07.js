@@ -9,9 +9,21 @@ window.alert(" Bem vindo não esqueça do código de desconto da sua compra!")
 let Valordacompra = prompt (" Qual o valor total da sua compra ? ")
 let Desconto = prompt (" Digite o cógigo de desconto para adicionar em sua compra !")
  
-if(valordacompra <=100){
-    Desconto = 0;
+let valorCompra = Number(prompt("Digite o valor total da compra:"));
+
+let desconto = 0;
+
+if (valorCompra <= 100) {
+    desconto = 0;
+} else if (valorCompra <= 200) {
+    desconto = valorCompra * 0.10;
+} else {
+    desconto = valorCompra * 0.20;
 }
+
+let valorFinal = valorCompra - desconto;
+
+alert("Valor final da compra: R$ " + valorFinal.toFixed(2));
 
 
 
