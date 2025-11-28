@@ -13,3 +13,12 @@ if (n1 < n2 &&  n3 > n4 ) {
 else  {
     console.log(" Não está em ordem crescente")
 }
+
+//verificar o descrescente 
+
+// verificar o aleatorio 
+
+
+if (n3 < n2 &&  n2 > n1 ) {
+    console.log(" Está em ordem crescente")
+} 
